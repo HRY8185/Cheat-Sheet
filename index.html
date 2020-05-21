@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./resources/CSS/index.css" type="text/CSS">
+        <title>My Favorite CSS Cheat Sheet</title>
+    </head>
+
+    <body>
+
+        <h1>My Favorite CSS Cheat Sheet</h1>
+        <h2>CSS Selectors and Specificty</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Selector</th>
+                    <th>Example</th>
+                    <th>Description</th>
+                    <th>Specificity Level</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td> <code class="code">p</code></td>
+                    <td>Selects all <code class="code">&lt;p&gt;</code> elements</td>
+                    <td><strong>Low</strong> - least specific and thus easier to modify or change - all instances of an element would be styled</td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td> <code class="code">.nav</code></td>
+                    <td>Selects all elements with class="nav"</td>
+                    <td><strong>Medium</strong> - only instances of an element with specific class would be styled</td>
+                </tr>
+                <tr>
+                    <td>Id</td>
+                    <td> <code class="code">#order</code></td>
+                    <td>Selects all elements with id="order"</td>
+                    <td><strong>High</strong> - overrides type and class, only an element with unique id would be styled</td>
+                </tr>
+             </tbody>
+
+         </table>
+
+         <p>Note- the <code class="code">!important</code> flag can be applied to specific attributes and will override any style 
+            regardless of specificty</p>
+            <br>
+
+        <h2>Common CSS Properties</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> <span class="code">font-family</span> </td>
+                    <td>Specifies the typeface of an element</td>
+                    <td> <span class="code">font-family:</span> Arial</td>
+                </tr>
+                <tr>
+                    <td> <span class="code">font-size</span> </td>
+                    <td>Defines the size of text displayed</td>
+                    <td> <span class="code">font-size:</span> 18px</td>
+                </tr>
+                <tr>
+                    <td> <span class="code">font-weight</span> </td>
+                    <td>Specifies thickness of text</td>
+                    <td> <span class="code">font-weight:</span> bold</td>
+                </tr>
+                <tr>
+                    <td> <span class="code">color</span> </td>
+                    <td>Defines color of the text</td>
+                    <td> <span class="code">color:</span> azure</td>
+                </tr>
+                <tr>
+                    <td> <span class="code">background-color</span> </td>
+                    <td>Defines color behind the text</td>
+                    <td> <span class="code">background-color:</span> linen</td>
+                </tr>
+                <tr>
+                    <td> <span class="code">text-align</span> </td>
+                    <td>Specifies alignment of text in an element</td>
+                    <td> <span class="code">text-align:</span> center</td>
+                </tr>
+                <tr>
+                    <td> <span class="code">text-decoration</span> </td>
+                    <td>Specifies decoration added to text</td>
+                    <td> <span class="code">text-decoration-line:</span> underline</td>
+            </tbody>
+
+        </table>
+
+        
+    </body>
+</html>

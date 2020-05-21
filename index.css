@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: linen;
+    text-align: center;
+}
+
+h1 { 
+   text-decoration-line: underline;
+}
+
+h2 {
+    color: mediumvioletred;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+th {
+    font-weight: bolder;
+}
+
+table, th {
+    border: solid 2px mediumvioletred;
+    border-collapse: collapse;
+}
+
+tr td {
+    border: solid 1px palevioletred;
+    text-align: center;
+
+}
+
+.code {
+    background-color: azure;
+    font-family: monospace;
+    font-size: 16px;
+}
+
